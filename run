@@ -1,0 +1,8 @@
+#!/bin/sh
+
+modprobe bcm2708_wdog
+export INFOBEAMER_ADDR=0.0.0.0
+export INFOBEAMER_AUDIO_TARGET=local
+export INFOBEAMER_LOG_LEVEL=3
+export INFOBEAMER_WATCHDOG=30
+exec /home/pi/info-beamer-pi/info-beamer /home/pi/info-beamer-pi/halloween 2>&1
