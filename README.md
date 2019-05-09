@@ -19,5 +19,10 @@
 1. Copy installer installer to PI via FileZilla: https://filezilla-project.org/
 1. Install info-beamer pi: https://info-beamer.com/product/info-beamer-pi
     * Note: install dependencies based on the README.txt that is part of the installation.  Ie. Flip steps 2 and 3.
-1. TODO
+1. Setup Nodes
+    * Copy 'nightmare' / 'withering' folders to the 'halloween' subfolder.
+    * Copy media into the folders
+1. Setup info-beamer for production: https://info-beamer.com/blog/running-info-beamer-in-production
+    * Copy `run` and the `log` folder to `/service/info-beamer/log`
+
 
